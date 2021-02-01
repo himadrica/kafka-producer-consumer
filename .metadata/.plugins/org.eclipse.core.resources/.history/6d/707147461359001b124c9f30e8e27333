@@ -1,0 +1,22 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+	id 'eclipse'
+}
+
+repositories {
+    // Use jcenter for resolving dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+	compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.7.0'
+	
+	// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+	compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+	
+	// https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client
+	compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '7.10.2'
+}

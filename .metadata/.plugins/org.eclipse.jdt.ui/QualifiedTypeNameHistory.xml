@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.ConsumerConfig"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringDeserializer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.ConsumerRecord"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.errors.WakeupException"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.TopicPartition"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.BlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.Hosts"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.HttpHosts"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.endpoint.StatusesFilterEndpoint"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.google.common.collect.Lists"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.Constants"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.httpclient.auth.Authentication"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.httpclient.auth.OAuth1"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.ClientBuilder"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.processor.StringDelimitedProcessor"/>
+    <fullyQualifiedTypeName name="com.twitter.hbc.core.Client"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.CredentialsProvider"/>
+    <fullyQualifiedTypeName name="org.apache.http.impl.client.BasicCredentialsProvider"/>
+    <fullyQualifiedTypeName name="org.apache.http.auth.AuthScope"/>
+    <fullyQualifiedTypeName name="org.apache.http.auth.UsernamePasswordCredentials"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.client.RestClientBuilder"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.client.RestClient"/>
+    <fullyQualifiedTypeName name="org.apache.http.HttpHost"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.client.RestClientBuilder.HttpClientConfigCallback"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.client.RestHighLevelClient"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.action.index.IndexRequest"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.common.xcontent.XContentType"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.action.index.IndexResponse"/>
+    <fullyQualifiedTypeName name="org.elasticsearch.client.RequestOptions"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.KafkaConsumer"/>
+    <fullyQualifiedTypeName name="com.google.gson.JsonParser"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package com.solvright.streamkafka;
+
+public class TweetsFilter {
+
+	public static void main(String[] args) {
+		// Create properties
+		
+		// create a topology
+		
+		// build the topology
+		
+		// start our streams application
+
+	}
+
+}

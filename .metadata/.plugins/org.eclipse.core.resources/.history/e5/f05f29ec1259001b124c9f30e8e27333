@@ -1,0 +1,46 @@
+package com.solvright.elasticsearch;
+
+import org.apache.http.HttpHost;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.http.client.CredentialsProvider;
+import org.apache.http.impl.client.BasicCredentialsProvider;
+import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
+import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.client.RestClient;
+import org.elasticsearch.client.RestClientBuilder;
+import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.xcontent.XContentType;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+		RestHighLevelClient client = createElasticSearchClient();
+		
+		String json = "{ \"hello\": \"world\" }";
+		
+		IndexRequest indexRequest = new IndexRequest("tweeter", "tweets").source(json, XContentType.JSON);
+				
+		
+	}
+
+	public static RestHighLevelClient createElasticSearchClient() {
+		String hostname = "kafka-playground-tes-4712029478.us-east-1.bonsaisearch.net";
+		String username = "cgkvboryge";
+		String password = "qq2x9sc5g2";
+
+		final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
+		credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username, password));
+
+		RestClientBuilder builder = RestClient.builder(new HttpHost(hostname, 443, "https"))
+				.setHttpClientConfigCallback(new RestClientBuilder.HttpClientConfigCallback() {
+					@Override
+					public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpClientBuilder) {
+						return httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
+					}
+				});
+		RestHighLevelClient client = new RestHighLevelClient(builder);
+		return client;
+	}
+
+}

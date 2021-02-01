@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Kafka-Twitter-Connect&apos;" deleteContents="true" description="Delete resource &apos;Kafka-Twitter-Connect&apos;" element1="/Kafka-Twitter-Connect" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1612208450733"/>
+</session>
